@@ -1,0 +1,18 @@
+<footer class="footer">
+  <div class="footer__inner">
+      <div class="copyright">
+        <span>© {{ now.Year }} <a href="mailto:kareemdaggash@gmail.com">contact</a> <a href="http://twitter.com/kareemdagg">Kareem</a> :: powered by <a href="https://vercel.com">Vercel</a> :: domain by <a href="httos://godaddy.com">Godaddy</a> :: based on <a href="https://github.com/panr/hugo-theme-terminal">Terminal</a></span>
+      </div>
+  </div>
+</footer>
+
+{{ $js := resources.Get "js/main.js" | js.Build }}
+{{ $js := resources.Get "js/prism.js" | js.Build }}
+{{ $opts := dict "noComments" true "minified" true "compact" true }}
+{{ $menu := resources.Get "js/menu.js" | js.Build | babel $opts }}
+{{ $prism := resources.Get "js/prism.js" | js.Build | babel $opts }}
+<script src="{{ $menu.Permalink }}"></script>
+<script src="{{ $prism.Permalink }}"></script>
+
+<!-- Extended footer section-->
+{{ partial "extended_footer.html" . }}

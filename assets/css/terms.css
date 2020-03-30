@@ -1,0 +1,52 @@
+.terms {
+
+  width: 100%;
+  text-align: left;
+  margin: 20px auto;
+  padding: 20px 0;
+
+  h1 {
+    --border: 3px dotted var(--accent);
+    position: relative;
+    color: var(--accent);
+    margin: 0 0 15px;
+    padding-bottom: 15px;
+    border-bottom: var(--border);
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 2px;
+      display: block;
+      width: 100%;
+      border-bottom: var(--border);
+    }
+  }
+
+  h3 {
+    font-size: initial;
+  }
+
+  ul {
+    list-style: none;
+
+    li::before {
+      content: "\25BA";
+      position: absolute;
+      left: -20px;
+      color: WHITE;
+    }
+  }
+
+  &-title {
+    text-decoration: none;
+    color: var(--accent);
+    border-bottom: 1px dotted var(--accent);
+    padding: 1px 6px;
+    margin: 0 2px;
+  }
+
+  &-count {
+    color: white;
+  }
+}
