@@ -44,6 +44,10 @@
     border-bottom: 1px dotted var(--accent);
     padding: 1px 6px;
     margin: 0 2px;
+
+    &:hover {
+      background: color-mod(var(--accent) alpha(30%));
+    }
   }
 
   &-count {

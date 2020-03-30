@@ -8,7 +8,7 @@ author = "Kareem"
 
 My name is Kareem and this is a site where I write about compters, primarily posts sharing computer science concepts, tutorials, as well as various other development tips I stumble across.
 
-The site is built with Hugo, a static site generator. The theme is based on {{<fancylink href="www.google.com" label="Terminal">}} by panr. The site is running on {{<fancylink href="www.google.com" label="Vercel">}}. The domain is registered on {{<fancylink href="godaddy.com" label="Godaddy">}}. This site is developed and written on a Manjaro Linux system.
+The site is built with {{<fancylink href="www.google.com" label="Hugo">}}, a static site generator. The theme is based on {{<fancylink href="www.google.com" label="Terminal">}} by panr. The site is running on {{<fancylink href="www.google.com" label="Vercel">}}. The domain is registered on {{<fancylink href="godaddy.com" label="Godaddy">}}. This site is developed and written on a Manjaro Linux system.
 
 {{<fancylink href="/" label="link to home">}}  wdw {{<fancylink href="/" label="link to about">}}
 
