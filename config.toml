@@ -67,5 +67,5 @@ paginate = 5
         url = "/about"
       [[languages.en.menu.main]]
         identifier = "tags"
-        name = "TOPICS"
+        name = "TAGS"
         url = "/tags"
