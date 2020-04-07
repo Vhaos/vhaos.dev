@@ -1,6 +1,6 @@
 +++
-title = "Liftoff! 🚀"
-date = "2019-01-25"
+title = "Welcome Aboard! 🚀"
+date = "2020-06-25"
 cover = "https://media.giphy.com/media/mi6DsSSNKDbUY/giphy-downsized.gif"
 tags = ["vhaos.dev"]
 keywords = ["blog", "coding", "tech"]
