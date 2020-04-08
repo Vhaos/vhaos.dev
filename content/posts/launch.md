@@ -6,6 +6,7 @@ tags = ["vhaos.dev"]
 keywords = ["blog", "coding", "tech"]
 description = "Vhaos.dev - the virtual home of Vhaos (Kareem) - has launched! 🎉. This site lives to showcase the various tips, tricks, and concepts I've discovered over the years as well as document interesting software side projects I undertake. Feel free to take a look around! 🔎"
 showFullContent = false
+weight = 1
 +++
 
 Welcome to **VHAOS.DEV** 🙋, The personal coding blog of {{<fancylink href="http://twitter.com/kareemdagg" label="Kareem">}} ! This site will feature various articles relating to software engineering and computer science. Topics will include interesting Algorithms, Data Structures, JavaScript, Docker, Kubernetes, Linux and more. Articles on other unrelated, topics may appear from time to time. **_I'm also open to suggestions on topics to you might like me to talk about and explore._** 📩
