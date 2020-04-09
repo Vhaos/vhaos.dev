@@ -1,4 +1,4 @@
-baseurl = "https://hugo-terminal-theme-test.vercel.app/"
+baseurl = "https://vhaos.dev/"
 languageCode = "en-gb"
 theme = "terminal"
 paginate = 5
