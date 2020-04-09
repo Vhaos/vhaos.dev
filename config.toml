@@ -47,7 +47,7 @@ paginate = 5
   [markup.highlight]
     noClasses = false
   [markup.goldmark.renderer]
-    hardWraps = true
+    hardWraps = false
     unsafe = true
     xhtml = true
 
