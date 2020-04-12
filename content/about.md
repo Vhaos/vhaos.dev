@@ -42,6 +42,7 @@ I am also now actively looking for Software Engineering roles (preferably based 
 #### Infrastructure
 
 - CI/CD (CircleCI, TravisCI)
+- Docker
 - Kubernetes
 - NGINX
 - Helm
@@ -58,14 +59,14 @@ I am also now actively looking for Software Engineering roles (preferably based 
 
 # About the site
 
-The site is built with {{<fancylink href="gohugo.io/" label="Hugo">}}, a static site generator. The theme is based on {{<fancylink href="github.com/panr/hugo-theme-terminal" label="Terminal">}} by {{<fancylink href="twitter.com/panr" label="panr">}}. The domain is registered on {{<fancylink href="godaddy.com" label="GoDaddy">}}, while deployment and hosting operates seemlessly thanks to {{<fancylink href="www.vercel.com" label="Vercel">}}. This site is developed and written on a Manjaro Linux system.
+The site is built with {{<fancylink href="gohugo.io" label="Hugo">}}, a static site generator. The theme is based on {{<fancylink href="github.com/panr/hugo-theme-terminal" label="Terminal">}} by {{<fancylink href="twitter.com/panr" label="panr">}}. The domain is registered on {{<fancylink href="godaddy.com" label="GoDaddy">}}, while deployment and hosting operates seemlessly thanks to {{<fancylink href="www.vercel.com" label="Vercel">}}. This site is developed and written on a Manjaro Linux system.
 
 You can find me on:
 
 - 📨 [**Email**](mailto:kareemdaggash@gmail.com) 
-- 💼 [**LinkedIn**](https://linkedin.com/kareemdagg)
+- 💼 [**LinkedIn**](https://linkedin.com/in/kareemdaggash)
 - 🧑‍💻 [**Github**](https://github.com/vhaos)
--  🐦 [**Twitter**](https://twitter.com/kareemdagg)
+- 🐦 [**Twitter**](https://twitter.com/kareemdagg)
 <br><br>
 
 Thank you for your time! 🦥
