@@ -4,6 +4,8 @@ date = "2020-06-25"
 author = "Kareem"
 +++
 
+{{< image src="https://media.giphy.com/media/jF1oqkXJL0Mda/giphy.gif" alt="welcome" position="center" style="width: 100%" >}}
+
 # Hello there 👋
 
 My name is Kareem and this is a site where I write about computers, primarily posts sharing computer science concepts, tutorials, as well as various other development tips I stumble across.
@@ -64,6 +66,6 @@ You can find me on:
 - 💼 [**LinkedIn**](https://linkedin.com/kareemdagg)
 - 🧑‍💻 [**Github**](https://github.com/vhaos)
 -  🐦 [**Twitter**](https://twitter.com/kareemdagg)
-<br>
+<br><br>
 
-{{< figure src="https://media.giphy.com/media/fv4tD2kW1PSgg/giphy.gif" style="width: 750px" alt="Thank you" position="center" caption="Thank you for your time! " captionPosition="center">}}
+Thank you for your time! 🦥
