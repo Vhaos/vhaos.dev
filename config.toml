@@ -54,11 +54,11 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Vhaos.dev"
-    subtitle = "Coding blog"
-    owner = "vhaos"
-    keywords = ""
-    copyright = ""
+    title = "Vhaos"
+    subtitle = "Blog and personal site of Kareem Daggash"
+    owner = "Kareem Daggash"
+    keywords = "software, tech, engineering, blog"
+    copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
