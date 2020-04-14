@@ -2,7 +2,7 @@
 title = ""
 date = ""
 author = "Kareem" 
-authorTwitter = "" #do not include @
+authorTwitter = "kareemdagg" #do not include @
 cover = "" #cover image to show for this post
 tags = ["", ""] #what tags (in the tags page) to list this post under
 keywords = ["", ""] #keywords to set for SEO
