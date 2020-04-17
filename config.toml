@@ -3,6 +3,10 @@ languageCode = "en-gb"
 theme = "terminal"
 paginate = 5
 
+[author]
+  name = "Kareem Daggash"
+  avatar = "https://bit.ly/2Ru6t7w"
+
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
