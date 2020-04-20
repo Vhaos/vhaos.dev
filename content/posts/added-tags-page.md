@@ -20,6 +20,6 @@ Stay tuned for more features in the coming weeks. A few ideas I've received so f
 - [ ] a theme picker
 - [ ] comments section
 
-If you have any suggestions for improving the site, reach out on {{<fancylink href="twitter.com/kareemdagg" label="Twitter">}} or {{<fancylink href="mailto:kareemdaggash@gmail.com" label="email">}}! 
+If you have any suggestions for improving the site, please fel free to reach out to me on {{<fancylink href="twitter.com/kareemdagg" label="Twitter">}} or {{<fancylink href="mailto:kareemdaggash@gmail.com" label="email">}}!
 
 🦥
