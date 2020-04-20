@@ -1,5 +1,5 @@
 {
-  "version": "https://jsonfeed.org/version/1",
+  "version": "https://jsonfeed.org/version/1.1",
   "user_comment": "This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format. To add this feed to your reader, copy the following URL — {{ with .OutputFormats.Get "json" -}}{{- .Permalink -}}{{- end }} — and add it your reader."
   "title": {{ .Site.Title | jsonify }},
   "description": "Kareem Daggash's weblog",
