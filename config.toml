@@ -47,6 +47,9 @@ paginate = 5
   creator = "kareemdagg"
   site = "kareemdagg"
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [markup]
   [markup.highlight]
     noClasses = false
