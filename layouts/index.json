@@ -14,7 +14,7 @@
   {{- end }},
   "items": [
     {{ range where .Pages "Section" "posts" }}
-      {{ range .Pages }}
+      {{ range .Pages.ByDate.Reverse }}
         {
           "title": {{ .Title | jsonify }},
           "date_published": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
