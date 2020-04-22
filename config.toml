@@ -5,6 +5,7 @@ paginate = 5
 
 [author]
   name = "Kareem Daggash"
+  email = "kareemdaggash@gmail.com"
   avatar = "https://bit.ly/2Ru6t7w"
 
 [params]
@@ -65,7 +66,7 @@ paginate = 5
     subtitle = "Blog and personal site of Kareem Daggash"
     owner = "Kareem Daggash"
     keywords = "software, tech, engineering, blog"
-    copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+    copyright = "© Kareem Daggash"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
