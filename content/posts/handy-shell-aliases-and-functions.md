@@ -4,14 +4,18 @@ date = "2020-07-03"
 author = "Kareem" 
 authorTwitter = "kareemdagg" #do not include @
 cover = "" #cover image to show for this post
-tags = ["bash", "programming"] #what tags (in the tags page) to list this post under
-keywords = ["bash", "programming", "shell"] #keywords to set for SEO
-description = "" #text that shows in the post list view (if showFullContent) is false. Also set as description for SEO
+tags = ["bash", "programming", "git"] #what tags (in the tags page) to list this post under
+keywords = ["bash", "programming", "shell", "git", "zsh"] #keywords to set for SEO
+description = "The more you work in the terminal, the faster you start to build a repitive workflow. While aomw tasks actions are fairly simple and take no time at all, others might require multiple steps; this does tend to rather monotonous after a while. Lucky for us many of these can be abstracted or automated completely! 🔨" #text that shows in the post list view (if showFullContent) is false. Also set as description for SEO
 showFullContent = false #whether to show all post content in list view (overrides description field if true)
 weight = 0 #priority to set post in list and search views. 0 is defualt priority, 1 pins post, lower weight = higher priority. 
 +++
 
-. So, without further ado, here is a collection of aliases and functions I use for a better quality of (shell) life.
+The more you work in the terminal, the faster you start to build a repitive workflow. While aomw tasks actions are fairly simple and take no time at all, others might require multiple steps; this does tend to rather monotonous after a while. Lucky for us many of these can be abstracted or automated completely 🔨!
+
+So, without further ado, here's a collection of simple aliases and functions that I have slowly begun to use over time. If you would like to use any of these yourself simply append these to the end of your `~/.bashrc` file (or `~/.kshrc` for ksh users, or `~/.zshrc` for zsh users).
+
+---
 
 - [Make a directory and change to it](#make-a-directory-and-change-to-it)
 - [Concise oneline git log graph](#concise-oneline-git-log-graph)
@@ -43,7 +47,7 @@ mkcd () {
 }
 ```
 
-Also, if you use _Oh-My-Zsh_, you can simply use the built in [command](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet) `take`, which does essentially the same as the function above.
+Also, if you are a `zsh` user and use _Oh-My-Zsh_, you can simply use the built in [command](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet) `take`, which does essentially the same as the function above.
 
 ---
 ### Concise oneline git log graph
