@@ -1,5 +1,5 @@
 +++
-title = "Site Update - RSS and JSON feeds"
+title = "📣 Update - RSS and JSON feeds"
 date = "2020-07-05"
 author = "Kareem" 
 authorTwitter = "kareemdagg" #do not include @
@@ -8,7 +8,7 @@ tags = ["vhaos.dev",] #what tags (in the tags page) to list this post under
 keywords = ["blog", "coding", "tech"] #keywords to set for SEO
 description = "Another new site update 🎉 (albeit a small one). In this update I've added support for both RSS and JSON Feeds.  Now anyone can subscribe to get the latest updates using their feed reader of choice 📲." #text that shows in the post list view (if showFullContent) is false. Also set as description for SEO
 showFullContent = false #whether to show all post content in list view (overrides description field if true)
-weight = 0 #priority to set post in list and search views. 0 is defualt priority, 1 pins post, lower weight = higher priority. 
+weight = 0 #priority to set post in list and search views. 0 is default priority, 1 pins post, lower weight = higher priority. 
 +++
 
 > **Edit:** the recently updated [JSON Feed 1.1](https://jsonfeed.org/version/1.1) spec brings the more specific `application/feed+json` MIME type; I've updated the site's JSON Feed has to use this MIME type for JSON Feeds instead.

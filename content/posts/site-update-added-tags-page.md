@@ -1,5 +1,5 @@
 +++
-title = "Site Update - Tags"
+title = "📣 Update - Tags"
 date = "2020-06-30"
 author = "Kareem"
 authorTwitter = "kareemdagg" #do not include @
