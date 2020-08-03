@@ -1,17 +1,17 @@
 +++
-title = "Handy Bash Aliases & Functions"
+title = "Handy Bash/ZSH Aliases & Functions"
 date = "2020-07-03"
 author = "Kareem" 
 authorTwitter = "kareemdagg" #do not include @
 cover = "" #cover image to show for this post
 tags = ["bash", "programming", "git"] #what tags (in the tags page) to list this post under
 keywords = ["bash", "programming", "shell", "git", "zsh"] #keywords to set for SEO
-description = "The more you work in the terminal, the faster you start to build a repitive workflow. While aomw tasks actions are fairly simple and take no time at all, others might require multiple steps; this does tend to rather monotonous after a while. Lucky for us many of these can be abstracted or automated completely! 🔨" #text that shows in the post list view (if showFullContent) is false. Also set as description for SEO
+description = "The more you work in the terminal, the faster you start to build a repetitive workflow. While basic tasks and actions are fairly simple and take no time at all, others might require multiple steps; this does tend to rather monotonous after a while. Alteratively you might want to string together of list of trivial commands into one giant timesaver! I've slowly compiled a little handy list of aliases and functions to help in reduce some of that monotony! 🔨" #text that shows in the post list view (if showFullContent) is false. Also set as description for SEO
 showFullContent = false #whether to show all post content in list view (overrides description field if true)
-weight = 0 #priority to set post in list and search views. 0 is defualt priority, 1 pins post, lower weight = higher priority. 
+weight = 0 #priority to set post in list and search views. 0 is default priority, 1 pins post, lower weight = higher priority. 
 +++
 
-The more you work in the terminal, the faster you start to build a repitive workflow. While aomw tasks actions are fairly simple and take no time at all, others might require multiple steps; this does tend to rather monotonous after a while. Lucky for us many of these can be abstracted or automated completely 🔨!
+The more you work in the terminal, the faster you start to build a repetitive workflow. While basic tasks and actions are fairly simple and take no time at all, others might require multiple steps; this does tend to rather monotonous after a while. Alteratively you might want to string together of list of trivial commands into one giant timesaver! I've slowly compiled a little handy list of aliases and functions to help in reduce some of that monotony! 🔨!
 
 So, without further ado, here's a collection of simple aliases and functions that I have slowly begun to use over time. If you would like to use any of these yourself simply append these to the end of your `~/.bashrc` file (or `~/.kshrc` for ksh users, or `~/.zshrc` for zsh users).
 
@@ -51,7 +51,7 @@ Also, if you are a `zsh` user and use _Oh-My-Zsh_, you can simply use the built 
 
 ---
 ### Concise oneline git log graph
-Conserve the amount of screen space taken up with git log. This shows the timeline/graph of commits on the current branch. Commits take up one line and SHAs are abbreviated. 
+Conserve the amount of screen space taken up with git log. This shows the timeline/graph of commits on the current branch. Commits take up one line and SHA are abbreviated. 
 ```bash
 alias glgo = "git log --graph --oneline"
 ```
@@ -93,7 +93,7 @@ alias reload="source ~/.zshrc"
 ```
 ---
 ### Clone a git repo and cd into it in one command
-Changing into the directory of a git repository you've just cloned is a frequent occurence. This helps save some keyboard clicks.
+Changing into the directory of a git repository you've just cloned is a frequent occurrence. This helps save some keyboard clicks.
 ```bash
 gclone() {
   git clone "$1" && cd "$(basename "$1" .git)"
