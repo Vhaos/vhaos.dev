@@ -1,9 +1,0 @@
-{
-  "css.lint.unknownAtRules": "ignore",
-  "css.lint.unknownProperties": "ignore",
-  "css.lint.vendorPrefix": "ignore",
-  "cSpell.words": [
-    "kareemdagg"
-  ],
-  //"css.validate": false,
-}
