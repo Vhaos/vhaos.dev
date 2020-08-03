@@ -8,7 +8,7 @@ author = "Kareem"
 
 # Hello there 👋
 
-My name is Kareem and this is a site where I write about computers, primarily posts sharing computer science concepts, tutorials, as well as various other development tips I stumble across.
+My name is Kareem and this is my coding blog primarily featuring posts sharing computer science concepts, tutorials, as well as various other development and software engineering tips I stumble across.
 
 I am also now actively looking for Software Engineering roles (preferably based within Greater London). Please feel more than welcome to get in touch at {{<fancylink href="mailto:kareemdaggash@gmail.com" label="kareemdaggash@gmail.com">}}. My experience includes:
 
