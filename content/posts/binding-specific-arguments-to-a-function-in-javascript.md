@@ -139,10 +139,6 @@ subFrom20(5);
 => 15
 ```
 
-I am usually against libraries and prefer coding my own utility functions, but an exception can easily be made for many of the libraries above (as likely many more). 
-
-I typically use lodash the most. I would highly suggest you check its documentation whenever you have a "This must be in the language somewhere!" moment. It helps fill in a lot of blanks in JavaScript.
-
 ---
 **Sources**
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind
