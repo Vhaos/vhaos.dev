@@ -9,7 +9,7 @@
     "@babel/cli": "^7.11.5",
     "@babel/core": "^7.11.5",
     "@babel/preset-env": "^7.11.5",
-    "browserslist": "^4.14.0",
+    "browserslist": "^4.16.5",
     "clipboard": "^2.0.6",
     "cssnano": "^4.1.10",
     "postcss-cli": "^7.1.2",
