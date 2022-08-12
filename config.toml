@@ -85,3 +85,7 @@ paginate = 5
         identifier = "tags"
         name = "TAGS"
         url = "/tags"
+
+[security]
+	[security.exec]
+		allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^babel$']
