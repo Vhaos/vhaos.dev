@@ -1,0 +1,20 @@
+name: auto-merge
+
+on:
+  pull_request:
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    if: github.actor == 'dependabot[bot]'
+    steps:
+      # Checks-out repository under $GITHUB_WORKSPACE, so this job can access it
+      - uses: actions/checkout@v3
+
+      # Auto merge dependabot PRs
+      - uses: ahmadnassri/action-dependabot-auto-merge@v2.3.1
+        with:
+          github-token: ${{ secrets.AUTOMERGE_TOKEN }}
+          command: squash and merge
+          approve: true
+          target: minor
